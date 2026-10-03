@@ -1,0 +1,22 @@
+# ====================================
+# Sistem Deteksi Jalan Berlubang
+# Dependencies
+# ====================================
+
+# Core Computer Vision & Deep Learning
+ultralytics>=8.2.0          # YOLOv8 (includes PyTorch)
+opencv-python>=4.8.0        # Video capture & processing
+numpy>=1.24.0               # Numerical computing
+
+# Desktop GUI
+customtkinter>=5.2.0        # Modern dark-themed Tkinter
+Pillow>=10.0.0              # Image processing for GUI
+
+# Audio Alarm
+pygame>=2.5.0               # Cross-platform audio playback
+
+# Dataset & Training
+roboflow>=1.1.0             # Dataset download from Roboflow
+
+# Utilities
+colorama>=0.4.6             # Colored terminal output

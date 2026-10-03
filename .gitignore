@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets (2.3+ GB - excluded from git)
+datasets/
+
+# YOLO Training Runs & Checkpoints
+runs/
+
+# Base pretrained weights (auto-downloaded by Ultralytics)
+yolov8n.pt
+
+# Screenshots & Local Test Outputs
+capture_pothole_*.jpg
+hasil_deteksi.jpg
+
+# Environments & IDE
+.venv/
+env/
+venv/
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
